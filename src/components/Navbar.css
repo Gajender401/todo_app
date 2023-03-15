@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background: rebeccapurple;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 300;
+}
+
+.navbar__title {
+    margin-right: auto;
+    font-size: 150%;
+    padding: 12px 16px;
+}
+
+.navbar__item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+
+.logout_btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f8f3f7;
+    overflow: hidden;
+}
+
+.logout_btn:hover{
+    background-color: #f17bdb;
+    color:white;
+    border-radius: 2px;
+    box-shadow:0px 0px 30px #f17bdb;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}

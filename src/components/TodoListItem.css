@@ -1,0 +1,49 @@
+
+.todo {
+    margin: 10px 5px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 10px #ddd;
+  }
+  .todo input {
+    cursor: pointer;
+    width: 80%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .buttonComplete,
+  .buttonCompleted,
+  .buttonDelete {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+
+  }
+  #i {
+    font-size: 35px;
+  }
+  .buttonComplete {
+    color: #95faa3;
+    margin-right: 10px;
+  }
+  .buttonCompleted {
+    color: #fa9595;
+    margin-right: 10px;
+  }
+  .buttonDelete {
+    color: rgb(255, 122, 98);
+  }
+  input:focus,
+  button:focus {
+    outline: none;
+  }
